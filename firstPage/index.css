@@ -1,0 +1,225 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.all {
+  border: 1px solid blue;
+  width: 90%;
+  margin: 0 auto;
+}
+.all a {
+  text-decoration: none;
+}
+.all .header {
+  border: 2px solid red;
+  height: 20%;
+  padding-bottom: 150px;
+}
+.all .header .nav {
+  border: 1px solid yellow;
+  width: 100%;
+  height: 30%;
+}
+.all .header .nav .logo {
+  width: 40%;
+  height: 30%;
+}
+.all .header .nav .menu {
+  float: right;
+  margin-top: -50px;
+  font-size: 20px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #25285e;
+  line-height: 48px;
+}
+.all .header .describe {
+  margin-top: 80px;
+  border: 1px solid blueviolet;
+  width: 100%;
+}
+.all .header .describe h1 {
+  font-size: 32px;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #25285e;
+  width: 60%;
+  height: 30%;
+}
+.all .header .describe p {
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #25285e;
+  line-height: 48px;
+  margin-top: 20px;
+  width: 60%;
+  height: 40%;
+}
+.all .header .describe .moreAndDownload {
+  width: 60%;
+  height: 40%;
+  font-size: 20px;
+  font-family: MicrosoftYaHei;
+  font-weight: 200;
+  line-height: 30px;
+  border-radius: 2px;
+  margin-top: 40px;
+}
+.all .header .describe .moreAndDownload .more {
+  width: 100%;
+  height: 50%;
+  background: #f75000;
+  color: #ffffff;
+  padding: 5px 60px;
+}
+.all .header .describe .moreAndDownload .download {
+  width: 50%;
+  height: 50%;
+  margin-left: 20px;
+  background: #f75000;
+  color: #ffffff;
+  padding: 4px 40px;
+}
+.all .container {
+  border: 2px solid blue;
+  height: 60%;
+  background: linear-gradient(150deg, #2c3476, #000101);
+  padding-bottom: 100px;
+}
+.all .container .word {
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.all .container .word h1 {
+  font-size: 32px;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #ffffff;
+  height: 30%;
+}
+.all .container .word p {
+  line-height: 48px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffffff;
+  height: 40%;
+}
+.all .container .content {
+  border: 1px solid red;
+  margin-top: 30px;
+}
+.all .container .content .modelName {
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #6d6d84;
+  line-height: 48px;
+}
+.all .container .content .modelName span {
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #f75000;
+  line-height: 48px;
+}
+.all .container .content .bigImg {
+  width: 60%;
+  height: 90%;
+  position: absolute;
+  top: 30%;
+  left: 34%;
+}
+.all .container .content .bigImg img {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  left: 10%;
+  top: 20%;
+}
+.all .container .content .imgLeft {
+  margin-left: 30px;
+}
+.all .container .content .imgLeft img {
+  width: 60%;
+}
+.all .container .content .imgRight img {
+  width: 60%;
+  float: right;
+  margin-top: -425px;
+  margin-right: 40px;
+}
+.all .container .content .modelLeft {
+  float: right;
+  width: 60%;
+  text-align: right;
+  margin-top: -370px;
+  margin-right: 20px;
+}
+.all .container .content .modelLeft .wordLeft h1 {
+  font-size: 32px;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #ffffff;
+}
+.all .container .content .modelLeft .wordLeft p {
+  line-height: 48px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffffff;
+}
+.all .footer {
+  border: 2px solid yellow;
+  height: 20%;
+  text-align: center;
+}
+.all .footer .production img {
+  width: 20%;
+  height: 25%;
+}
+.all .footer .production h1 {
+  margin-top: 10px;
+  font-size: 26px;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #24275e;
+  line-height: 48px;
+}
+.all .footer .production p {
+  width: 60%;
+  margin: 10px auto;
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #24275e;
+}
+.all .footer .production .freeDownload {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #f75000;
+}
+.all .footer .production .moreDetail {
+  margin-top: 20px;
+}
+.all .footer .production .moreDetail .download {
+  width: 50%;
+  height: 50%;
+  background: #f75000;
+  color: #ffffff;
+  padding: 4px 40px;
+}
+.all .footer .linkThank {
+  width: 100%;
+  margin-top: 20px;
+  float: left;
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #808080;
+}
+.all .footer .linkThank a {
+  margin: 0px 30px;
+}
